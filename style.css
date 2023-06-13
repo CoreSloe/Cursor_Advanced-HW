@@ -1,0 +1,36 @@
+* {
+  font-family: "Michroma", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://fastly.picsum.photos/id/554/3696/2448.jpg?hmac=hypxElC3F6BWUlLuE7V9VjNEovYkH5UproOXLglNoRM);
+}
+
+div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 500px auto;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
