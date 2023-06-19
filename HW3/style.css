@@ -1,0 +1,38 @@
+* {
+  font-family: "Long Cang", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://fastly.picsum.photos/id/887/5000/3334.jpg?hmac=lmHocuxKBOASz5pddcoe1rgCiQYMA9M2cvDZAytCvPk);
+  background-size: cover;
+}
+
+div {
+  color: rgb(8, 110, 205);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  margin: 210px 20px;
+  gap: 18px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
