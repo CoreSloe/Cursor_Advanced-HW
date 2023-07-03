@@ -64,7 +64,7 @@ console.log(totalTaxesInLitva);
 // 4
 
 function getMySalary(country) {
-  const salary = Math.floor(Math.random() * (2000 - 1500 + 1)) + 1500;
+  const salary = Math.floor(Math.random() * (2000 - 1500 + 1)) + 1500; // Генеруємо випадкову зарплату в діапазоні від 1500 до 2000
   const taxes = country.tax * salary;
   const profit = salary - taxes;
 
@@ -76,7 +76,7 @@ function getMySalary(country) {
 
   console.log(salaryInfo);
 
-  setTimeout(getMySalary.bind(null, country), 10000); // Викликаємо функцію знову через 10 секунд
+  setTimeout(getMySalary.bind(null, country), 10000);
 }
 
 getMySalary(ukraine);
