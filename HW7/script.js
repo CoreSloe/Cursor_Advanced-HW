@@ -17,6 +17,7 @@ const litva = {
 };
 
 // 1
+
 function getMyTaxes(salary) {
   return this.tax * salary;
 }
@@ -27,6 +28,7 @@ const taxesInUkraine = getMyTaxes.call(ukraine1, salary);
 console.log(taxesInUkraine); // Результат: 390.0 (при зарплаті 2000 і ставці податку 0.195)
 
 // 2
+
 function getMiddleTaxes() {
   return this.tax * this.middleSalary;
 }
@@ -43,6 +45,7 @@ console.log(middleTaxesInLatvia);
 console.log(middleTaxesInLitva);
 
 // 3
+
 function getTotalTaxes() {
   return this.tax * this.middleSalary * this.vacancies;
 }
@@ -59,6 +62,7 @@ console.log(totalTaxesInLatvia);
 console.log(totalTaxesInLitva);
 
 // 4
+
 function getMySalary(country) {
   const salary = Math.floor(Math.random() * (2000 - 1500 + 1)) + 1500;
   const taxes = country.tax * salary;
