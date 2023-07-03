@@ -78,5 +78,5 @@ function getMySalary(country) {
 
   setTimeout(getMySalary.bind(null, country), 10000); // Викликаємо функцію знову через 10 секунд
 }
-const ukraine4 = { tax: 0.195, middleSalary: 1789, vacancies: 11476 };
-getMySalary(ukraine4);
+
+getMySalary(ukraine);
