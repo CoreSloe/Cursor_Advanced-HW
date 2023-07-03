@@ -21,24 +21,20 @@ const litva = {
 function getMyTaxes(salary) {
   return this.tax * salary;
 }
-const ukraine1 = { tax: 0.195, middleSalary: 1789, vacancies: 11476 };
+
 const salary = 2000;
 
-const taxesInUkraine = getMyTaxes.call(ukraine1, salary);
-console.log(taxesInUkraine); // Результат: 390.0 (при зарплаті 2000 і ставці податку 0.195)
+const taxesInUkraine = getMyTaxes.call(ukraine, salary);
+console.log(taxesInUkraine);
 
 // 2
 
 function getMiddleTaxes() {
   return this.tax * this.middleSalary;
 }
-const ukraine2 = { tax: 0.195, middleSalary: 1789 };
-const latvia2 = { tax: 0.25, middleSalary: 1586 };
-const litva2 = { tax: 0.15, middleSalary: 1509 };
-
-const middleTaxesInUkraine = getMiddleTaxes.call(ukraine2);
-const middleTaxesInLatvia = getMiddleTaxes.call(latvia2);
-const middleTaxesInLitva = getMiddleTaxes.call(litva2);
+const middleTaxesInUkraine = getMiddleTaxes.call(ukraine);
+const middleTaxesInLatvia = getMiddleTaxes.call(latvia);
+const middleTaxesInLitva = getMiddleTaxes.call(litva);
 
 console.log(middleTaxesInUkraine);
 console.log(middleTaxesInLatvia);
@@ -49,13 +45,9 @@ console.log(middleTaxesInLitva);
 function getTotalTaxes() {
   return this.tax * this.middleSalary * this.vacancies;
 }
-const ukraine3 = { tax: 0.195, middleSalary: 1789, vacancies: 11476 };
-const latvia3 = { tax: 0.25, middleSalary: 1586, vacancies: 3921 };
-const litva3 = { tax: 0.15, middleSalary: 1509, vacancies: 1114 };
-
-const totalTaxesInUkraine = getTotalTaxes.call(ukraine3);
-const totalTaxesInLatvia = getTotalTaxes.call(latvia3);
-const totalTaxesInLitva = getTotalTaxes.call(litva3);
+const totalTaxesInUkraine = getTotalTaxes.call(ukraine);
+const totalTaxesInLatvia = getTotalTaxes.call(latvia);
+const totalTaxesInLitva = getTotalTaxes.call(litva);
 
 console.log(totalTaxesInUkraine);
 console.log(totalTaxesInLatvia);
