@@ -1,0 +1,39 @@
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/1209972/pexels-photo-1209972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+}
+
+div {
+  color: rgb(105 68 193);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  margin: 0 20px;
+  gap: 25px;
+}
+
+h1 {
+  margin-left: 325px;
+  font-size: 205px;
+  font-weight: bold;
+  line-height: 130px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
+
+p {
+  font-size: 85px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
