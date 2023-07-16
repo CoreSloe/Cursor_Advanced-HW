@@ -1,0 +1,35 @@
+* {
+  font-family: "Frijole", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/wtf-chat-word-typography_53876-111463.jpg?w=1380&t=st=1689536698~exp=1689537298~hmac=5915658201e58c7eb061c6aa1931f5ad05ae6bbfa711487af32c36569b529298);
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+}
+.key {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0.2rem solid rgb(71, 181, 250);
+}
+kbd {
+  font-size: 40px;
+  text-shadow: 5px 4px 8px black;
+}
