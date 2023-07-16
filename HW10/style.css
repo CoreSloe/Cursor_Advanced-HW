@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(https://img.freepik.com/free-vector/wtf-chat-word-typography_53876-111463.jpg?w=1380&t=st=1689536698~exp=1689537298~hmac=5915658201e58c7eb061c6aa1931f5ad05ae6bbfa711487af32c36569b529298);
+  background-image: url(https://cdn.pixabay.com/photo/2020/12/12/21/52/sign-5826751_1280.jpg);
   background-size: cover;
 }
 
@@ -17,7 +17,7 @@ body {
   height: 100vh;
 }
 .key {
-  color: yellow;
+  color: rgb(246, 148, 217);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   cursor: pointer;
-  border: 0.2rem solid rgb(71, 181, 250);
+  border: 0.1rem solid rgb(245, 177, 245);
 }
 kbd {
   font-size: 40px;
