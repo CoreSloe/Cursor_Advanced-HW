@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="buttons">
+      <input type="number" id="filmNumber" placeholder="Введіть номер фільму" />
+      <button id="getInfoButton">Information about characters</button>
+      <button id="nextButton" style="display: none">Planets</button>
+      <button id="translateBtn">Translation to Wookie</button>
+    </div>
+    <div class="grid-container" id="characterInfo"></div>
+    <div class="grid-container" id="planetInfo"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
