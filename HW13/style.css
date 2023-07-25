@@ -1,0 +1,70 @@
+* {
+  font-family: "Alfa Slab One", cursive;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+}
+
+div {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+  margin: 210px 20px;
+  gap: 25px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 3px 4px 8px black;
+}
+
+#increaseButton {
+  font-family: "Alfa Slab One", cursive;
+  padding: 12px 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #ffffff1a;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 3px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+#decreaseButton {
+  font-family: "Alfa Slab One", cursive;
+  padding: 12px 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #ffffff1a;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 3px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
